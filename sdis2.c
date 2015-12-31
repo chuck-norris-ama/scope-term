@@ -14,6 +14,7 @@
 #include <termios.h>
 
 #include "font.h"
+#include "config.h"
 
 struct termios orig;
 struct termios new;
@@ -495,7 +496,7 @@ int main(int argc, char **argv) {
     ioctl(0, TIOCSWINSZ, &ws);
     printf("Initialized\n");
     setenv("TERMTYPE", "dumb", 1);
-    execl("/usr/bin/irssi", "irssi", "-c", "chat.freenode.net", "-n", "chuck_norris_sco", NULL);
+    execl("/usr/bin/irssi", "irssi", "-c", IRC_SERVER, "-n", IRC_NAME, NULL);
   }
 }
 	  
