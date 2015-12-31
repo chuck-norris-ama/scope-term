@@ -20,11 +20,11 @@ We will use the red channel to control the Y axis, the green channel
 to control the X axis, and the blue channel to control the beam
 intensity. The oscilloscope connections are as follows:
 
-`(R)` to oscilloscope channel 2 (probe)
-`(G)` to oscilloscope channel 1 (probe)
-`(g)` to oscilloscope channel 1 (ground)
-`(B)` to oscilloscope intensity modulation (+)
-`(b)` to oscilloscope intensity modulation (-)
+`(R)` to oscilloscope channel 2 (probe)  
+`(G)` to oscilloscope channel 1 (probe)  
+`(g)` to oscilloscope channel 1 (ground)  
+`(B)` to oscilloscope intensity modulation (+)  
+`(b)` to oscilloscope intensity modulation (-)  
 
 The intensity modulation input is often found on the back of the
 oscilloscope. It wants TTL signals, so I'd recommend using a straight
